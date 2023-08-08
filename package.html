@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>package</title>
+
+    <!-- font awesome cnd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<style>
+
+.card {
+    margin: 20px;
+    margin-top: 20px;
+    max-width: 350px;
+    max-height: 432px;
+    padding: 36px 34px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgb(210, 207, 207);
+}
+
+.container {
+    width: calc(100%/4 -20px);
+    /* padding-top: 12px; */
+}
+
+
+.gallery-pack {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    gap: 3px;
+}
+
+.heading-pack{
+    text-align: center;
+  padding: 10px;
+}
+h3{
+    padding: 8px;
+    font-size: 1rem;
+}
+p{
+    font-size: .8rem;
+}
+img{
+   margin-left: 20%;
+   height: 200px;
+   width: 180px;
+}
+
+.btn{
+    padding: 5px 6px;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    margin-left:22%; 
+}
+.footer-pack{
+    background-image: url('/Images/blue.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #624170;
+    margin-top: 20%;
+}
+.box-container {
+    margin-bottom: 100px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+    margin-right: 20px;
+    
+
+
+}
+
+.footer-pack .box-container .box h3 {
+    color: rgb(5, 5, 5);
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer-pack .box-container .box a {
+    color: rgb(184, 178, 178);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.footer-pack .box-container .box a i {
+    color: var(--main-color);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer-pack .box-container .box a:hover i {
+    color: rgb(21, 20, 20);
+    padding-right: 2rem;
+}
+
+.footer-pack .credit {
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid var(--light-black);
+    font-size: 1.5rem;
+    color: rgb(252, 251, 251);
+}
+
+.footer-pack .credit span {
+    color: var(--main-color);
+}
+
+
+
+
+
+
+</style>
+<body>
+
+    <!-- header section starts-->
+    <section class="header">
+
+        <a href="/index.html" class="logo">Travel</a>
+
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/package.html">Package</a>
+            <a href="/book.html">Book</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+
+    <!-- header section ends -->
+    <div class="heading-pack">
+        <h1>package</h1>
+    </div>
+    <!-- package starts -->
+
+
+
+    <div class="gallery-pack">
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack1.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="Images/pack2.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack3.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack4.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack5.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack6.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack7.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack8.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack9.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack10.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="container">
+                <div class="img-auth">
+                    <img src="/Images/pack11.jpg" alt="image" width="100" height="100">
+                </div>
+                <div class="heading">
+                    <h3>adventure & tour</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                        repudiandae delectus quis.</p>
+                    <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="card">
+                <div class="container">
+                    <div class="img-auth">
+                        <img src="/Images/pack12.jpg" alt="image" width="100" height="100">
+                    </div>
+                    <div class="heading">
+                        <h3>adventure & tour</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis doloribus aliquam
+                            repudiandae delectus quis.</p>
+                        <div> <a href="/book.html"> <button type="button" class="btn btn-dark btn-sm"> book now </button> </a> </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+   
+    <!-- package ends -->
+
+
+    <!-- footer section start -->
+
+    <section class="footer-pack">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="/index.html"><i class="fas fa-angle-right"></i> Home</a>
+                <a href="/about.html"><i class="fas fa-angle-right"></i> About</a>
+                <a href="/package.html"><i class="fas fa-angle-right"></i> Package</a>
+                <a href="/book.html"><i class="fas fa-angle-right"></i> Book</a>
+
+            </div>
+
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i> ask questions</a>
+                <a href="#"><i class="fas fa-angle-right"></i> about us</a>
+                <a href="#"><i class="fas fa-angle-right"></i> privacy policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i> terms of use</a>
+            </div>
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i class="fas fa-envelope"></i> bipanashrestha@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i> Dharan,Nepal</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook"></i>facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <span> Bipana Shrestha </span>| all rights reserved! </div>
+
+    </section>
+
+
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+    <!-- swiper js link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- javascript link -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
